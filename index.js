@@ -10,6 +10,7 @@
 
 setTimeout(() => {
   window.addEventListener('click', bodyListener);
+  window.addEventListener('touchstart', bodyListener);
 }, 1000);
 
 const autoPlay = () => {
